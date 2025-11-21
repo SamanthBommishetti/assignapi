@@ -1,0 +1,5 @@
+loan_age_bucket,avg_loss_severity
+0-1 yr,-0.0
+1-3 yr,-0.003
+3-5 yr,-0.006
+5+ yr,-0.01

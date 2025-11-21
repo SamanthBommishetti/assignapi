@@ -1,0 +1,4 @@
+card_network,transaction_status,count
+MasterCard,Declined,33400
+MasterCard,Reversed,33304
+MasterCard,Approved,33296

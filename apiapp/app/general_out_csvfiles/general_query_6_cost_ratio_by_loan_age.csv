@@ -1,0 +1,5 @@
+loan_age_bucket,avg_cost_ratio
+0-1 yr,-0.0
+1-3 yr,-0.0005
+3-5 yr,-0.0012
+5+ yr,-0.0029

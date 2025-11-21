@@ -1,0 +1,4 @@
+dti_band,default_rate_percent
+36-45,1.09
+>45,1.86
+≤35,0.7

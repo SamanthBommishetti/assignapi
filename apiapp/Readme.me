@@ -1,0 +1,29 @@
+
+# To create virtual environment and activate
+python -m venv .venv
+#windows
+.venv\Scripts\activate
+#linux
+source .venv/bin/activate
+
+#install all dependencies
+pip install -r requirements.txt
+
+#postgres tasks
+1) Download and install postgres
+2) Create userid - fmacadmin with password fmac*2025
+3) Create database fmac_db and give access rights to above user
+4) Update database.py with the above details. 
+
+# To load dummy data run following commands.
+cd apiapp/app
+python dummy_data_loader.py
+
+# To run total fastapi application run following commands
+uvicorn app.main:app --reload --port 9001
+
+# Alembic fo database migrations. 
+alembic revision --autogenerate -m “Initial migration”
+
+pip install "pwdlib[argon2]"
+

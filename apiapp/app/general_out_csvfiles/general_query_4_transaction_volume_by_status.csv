@@ -1,0 +1,4 @@
+transaction_status,count
+Declined,33400
+Reversed,33304
+Approved,33296

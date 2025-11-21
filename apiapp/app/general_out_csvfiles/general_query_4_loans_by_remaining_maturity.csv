@@ -1,0 +1,4 @@
+maturity_bucket,loan_count,total_upb
+Short Term (<=5yrs),66270104,2001953848808
+Long Term (>15yrs),1865509093,357057052241904
+Medium Term (5–15yrs),716775650,81816684914522
